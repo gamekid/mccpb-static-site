@@ -289,23 +289,41 @@ footer .footer-content img {
   z-index: -1;
 
   content: "";
-  background-image: url("images/bergsma_faded.jpg");
+  background-image: url("images/sri-bg-faded.jpg");
   background-size: cover;
-  background-position: center;
-  filter: brightness(0.7);
+  background-position: right;
+  /* filter: brightness(0.7); */
 }
 
 .cover h1 {
   color: white;
+  text-shadow: 0 0 5px black;
 }
 
 @media screen and (max-width: 32rem) {
   .cover {
     grid-template-columns: 1fr;
   }
-  .cover::before {
+  /* .cover::before {
     background-position: 60%;
-  }
+  } */
+}
+
+.cover-content {
+  position: relative;
+}
+
+.cover-content::before {
+  position: absolute;
+  top: -8rem;
+  left: -8rem;
+  bottom: 1rem;
+  z-index: -1;
+
+  width: 33rem;
+  content: "";
+  background-color: hsla(var(--dark-color-hsl), 0.9);
+  border-radius: 2rem;
 }
 
 .card {
