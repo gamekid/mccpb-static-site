@@ -315,9 +315,9 @@ footer .footer-content img {
 
 .cover-content::before {
   position: absolute;
-  top: -8rem;
-  left: -8rem;
-  bottom: 1rem;
+  top: -5rem;
+  left: -3rem;
+  bottom: -2rem;
   z-index: -1;
 
   width: 33rem;
