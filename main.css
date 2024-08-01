@@ -272,7 +272,7 @@ footer .footer-content img {
 
 .cover {
   width: 100%;
-  height: calc(100vh - 4rem);
+  height: calc(100vh - 8rem);
 
   isolation: isolate;
   position: relative;
@@ -289,9 +289,9 @@ footer .footer-content img {
   z-index: -1;
 
   content: "";
-  background-image: url("images/sri-bg-faded.jpg");
+  background-image: url("images/2024-bg-2.jpeg");
   background-size: cover;
-  background-position: right;
+  background-position: center;
   /* filter: brightness(0.7); */
 }
 
@@ -320,6 +320,7 @@ footer .footer-content img {
   z-index: -1;
 
   width: 33rem;
+  max-width: 100vw;
   content: "";
   background-color: hsla(var(--dark-color-hsl), 0.9);
   border-radius: 2rem;
