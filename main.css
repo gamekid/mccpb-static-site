@@ -278,7 +278,7 @@ footer .footer-content img {
   position: relative;
 
   display: grid;
-  grid-template-columns: minmax(32rem, 47rem);
+  grid-template-columns: minmax(32rem, 50rem);
   place-content: center;
   padding: 0 1rem;
 }
@@ -289,9 +289,9 @@ footer .footer-content img {
   z-index: -1;
 
   content: "";
-  background-image: url("images/2024-bg-2.jpeg");
+  background-image: url("images/2025-deacon-harold-bg.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: center top;
   /* filter: brightness(0.7); */
 }
 
@@ -310,16 +310,18 @@ footer .footer-content img {
 
 .cover-content {
   position: relative;
+  text-align: right;
+  margin-top: 25rem;
 }
 
 .cover-content::before {
   position: absolute;
   top: -5rem;
-  left: -3rem;
+  right: -3rem;
   bottom: -2rem;
   z-index: -1;
 
-  width: 33rem;
+  width: 41rem;
   max-width: 100vw;
   content: "";
   background-color: hsla(var(--dark-color-hsl), 0.9);
