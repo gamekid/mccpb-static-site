@@ -311,12 +311,12 @@ footer .footer-content img {
 .cover-content {
   position: relative;
   text-align: right;
-  margin-top: 25rem;
+  margin-top: 23rem;
 }
 
 .cover-content::before {
   position: absolute;
-  top: -5rem;
+  top: -2rem;
   right: -3rem;
   bottom: -2rem;
   z-index: -1;
