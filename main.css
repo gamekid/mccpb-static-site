@@ -272,7 +272,7 @@ footer .footer-content img {
 
 .cover {
   width: 100%;
-  height: calc(100vh - 8rem);
+  height: calc(100vh - 16rem);
 
   isolation: isolate;
   position: relative;
@@ -289,7 +289,7 @@ footer .footer-content img {
   z-index: -1;
 
   content: "";
-  background-image: url("images/2025-deacon-harold-bg.jpg");
+  background-image: url("images/km-bg.png");
   background-size: cover;
   background-position: center top;
   /* filter: brightness(0.7); */
