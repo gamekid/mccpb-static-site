@@ -279,8 +279,11 @@ footer .footer-content img {
 
   display: grid;
   grid-template-columns: minmax(32rem, 50rem);
-  place-content: center;
+  /* place-content: center; */
+  justify-content: center;
+  align-content: end;
   padding: 0 1rem;
+  overflow-x: clip;
 }
 
 .cover::before {
