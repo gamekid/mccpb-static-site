@@ -121,7 +121,7 @@ a.button {
   background: var(--background-color);
   color: var(--dark-color);
   font-size: 1rem;
-  line-height: 1;
+  line-height: 1.25;
   text-decoration: none;
   cursor: pointer;
   transition: filter 150ms;
